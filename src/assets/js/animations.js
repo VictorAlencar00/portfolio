@@ -1,5 +1,4 @@
-const elements = document.querySelectorAll(".project");
-
+const elements = document.querySelectorAll(".animated_object");
 elements.forEach((element) => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
